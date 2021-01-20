@@ -24,7 +24,7 @@ The main algorithm for the estimation is in the file <b>estimationRountine.jl</b
 If you have any questions, feel free to contact me: ivonne.schwartz@mailbox.org
 
 
-#REFERENCES
+REFERENCES
 
 Schmitt, N., Schwartz, I. and Westerhoff, F. (2020): Heterogeneous speculators and stock market dynamics: a simple agent-based computational model. The European Journal of Finance, 1-20.
 
