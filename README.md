@@ -4,13 +4,13 @@ NOTE: The routine is coded for using an 16-cores CPU. The Python library is also
 
 <hr>
 
-*The file <b>coreABM.jl</b> contains the code for simulating the agent-based model of Schmitt et al. (2020).
+* The file <b>coreABM.jl</b> contains the code for simulating the agent-based model of Schmitt et al. (2020).
 
-*The main algorithm for the estimation is in the file <b>estimationRountine.jl</b>
+* The main algorithm for the estimation is in the file <b>estimationRountine.jl</b>
 
-*<b>MLsurrogate</b> is a small Python library that uses the Catboost package to train a surrogate model. To run it from Julia using PyCall, it has to be saved in one of Python's path directories (sys.path).
+* <b>MLsurrogate</b> is a small Python library that uses the Catboost package to train a surrogate model. To run it from Julia using PyCall, it has to be saved in one of Python's path directories (sys.path).
 
-*To replicate the numerical experiments of the paper, run file <b>estimateABM.jl</b>. (min1.csv, max1.csv) and (min2.csv, max2.csv) are the lower and upper bounds for the Sobol sequences of experiment 1 and 2, respectively. (Pre-) generated pseudo-empirical data is stored in the two files momentsGrid_PseudoEmp_20k.csv and momentsGrid_PseudoEmp_80k.csv for time length T=20000 and T=80000, respectively.
+* To replicate the numerical experiments of the paper, run file <b>estimateABM.jl</b>. (min1.csv, max1.csv) and (min2.csv, max2.csv) are the lower and upper bounds for the Sobol sequences of experiment 1 and 2, respectively. (Pre-) generated pseudo-empirical data is stored in the two files momentsGrid_PseudoEmp_20k.csv and momentsGrid_PseudoEmp_80k.csv for time length T=20000 and T=80000, respectively.
 
 
 
