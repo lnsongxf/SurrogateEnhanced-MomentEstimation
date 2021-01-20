@@ -1,6 +1,6 @@
 Julia code for running and replicating results in Schwartz, I. (2021): "Estimation of agent-based models: Testing and applying a simulated joint moment approach". Working Paper.
 
-NOTE: The routine is coded for using an 16-cores CPU. The Python library is also using GPU power.
+NOTE: The routine is coded for using an 16-cores CPU. The Python library is also using GPU power. Runs on Julia 1.1.0.
 
 <hr>
 
